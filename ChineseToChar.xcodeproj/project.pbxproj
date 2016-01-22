@@ -15,6 +15,7 @@
 		0DD9837E1C50CCC50058CB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD9837C1C50CCC50058CB30 /* LaunchScreen.storyboard */; };
 		0DD983891C50CCC50058CB30 /* ChineseToCharTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD983881C50CCC50058CB30 /* ChineseToCharTests.m */; };
 		0DD983941C50CCC50058CB30 /* ChineseToCharUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD983931C50CCC50058CB30 /* ChineseToCharUITests.m */; };
+		0DD983A41C50CFAA0058CB30 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DD983A31C50CFAA0058CB30 /* Data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0DD9838F1C50CCC50058CB30 /* ChineseToCharUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseToCharUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD983931C50CCC50058CB30 /* ChineseToCharUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseToCharUITests.m; sourceTree = "<group>"; };
 		0DD983951C50CCC50058CB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD983A31C50CFAA0058CB30 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0DD9837C1C50CCC50058CB30 /* LaunchScreen.storyboard */,
 				0DD9837F1C50CCC50058CB30 /* Info.plist */,
 				0DD9836E1C50CCC50058CB30 /* Supporting Files */,
+				0DD983A31C50CFAA0058CB30 /* Data.plist */,
 			);
 			path = ChineseToChar;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				0DD9837E1C50CCC50058CB30 /* LaunchScreen.storyboard in Resources */,
 				0DD9837B1C50CCC50058CB30 /* Assets.xcassets in Resources */,
+				0DD983A41C50CFAA0058CB30 /* Data.plist in Resources */,
 				0DD983791C50CCC50058CB30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +500,7 @@
 				0DD9839A1C50CCC50058CB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DD9839B1C50CCC50058CB30 /* Build configuration list for PBXNativeTarget "ChineseToCharTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				0DD9839D1C50CCC50058CB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DD9839E1C50CCC50058CB30 /* Build configuration list for PBXNativeTarget "ChineseToCharUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				0DD983A01C50CCC50058CB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
